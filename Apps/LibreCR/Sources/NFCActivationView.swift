@@ -26,7 +26,7 @@ struct NFCActivationView: View {
                     lifecycleSection
                     if let error = model.lastError {
                         Divider()
-                        Text("Error").font(.headline).foregroundStyle(.red)
+                        Text("Error").font(.headline).foregroundStyle(.pink)
                         Text(error).font(.caption).textSelection(.enabled)
                     }
                 }
